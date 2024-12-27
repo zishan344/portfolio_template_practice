@@ -1,0 +1,22 @@
+.bg_primary {
+  background-color: #0dcaf0 !important;
+}
+.text_primary {
+  color: #0dcaf0 !important;
+}
+
+.custom-width-form {
+  width: 50%;
+}
+
+.custom_shadow {
+  box-shadow: 0px 4px 6px rgba(255, 255, 255, 0.8);
+  padding: 20px;
+  border-radius: 5px;
+}
+
+@media (min-width: 200px) and (max-width: 991px) {
+  .custom-width-form {
+    width: 100%;
+  }
+}
